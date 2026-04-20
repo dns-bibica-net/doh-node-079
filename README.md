@@ -7,7 +7,7 @@ A secure, high-performance DNS-over-HTTPS (DoH) proxy running on Cloudflare's gl
 
 ## ⚡ Key Features
 
-*   **100% Free Usage**: Runs on the Cloudflare Pages Free Tier with a limit of **100,000 requests per day**. With an average consumption of 4k-10k requests/device/day, a single account can support 10-20 devices comfortably.
+*   **100% Free Usage**: Fully hosted on the Cloudflare Pages Free Tier with a limit of 100,000 requests per day. Given an average consumption of 200 – 4,000 requests per device daily, a single account can comfortably support 10 – 20 devices (or even 100 – 200 devices with casual usage).
 *   **Custom Domain Scaling**: Attach your own domain for a professional, short DNS endpoint. You can spread usage across multiple Cloudflare accounts to multiply your quota (100k per account) while keeping your custom domains.
 *   **Smart Adblocking**: Local filtering using professional lists (AdGuard, ABPVN, Bypass-VN, etc.), automatically updated **every hour**.
 *   **ECS Geo-Optimization (RFC 7871)**: Injects EDNS Client Subnet (IPv4 `/24`, IPv6 `/48`) to ensure CDNs (Akamai, CloudFront, Fastly, BunnyCDN, Gcore) resolve you to the nearest servers.
